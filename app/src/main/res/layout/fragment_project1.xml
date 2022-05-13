@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:background="@color/white"
+    tools:context=".project1">
+
+    <TextView
+        android:id="@+id/physcicalfitnessfunctionality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:text="PHYSICAL FITNESS"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="500dp"
+        android:layout_below="@id/physcicalfitnessfunctionality"
+        android:src="@drawable/img"
+        android:translationX="0dp"
+        android:translationY="0dp" />
+
+    <android.widget.Button
+        android:id="@+id/less_time"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonback"
+        android:text="less time"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:translationX="40dp"
+        android:translationY="230dp" />
+
+    <!--Button
+        android:id="@+id/have_time"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="have time"
+        android:translationX="230dp"
+        android:translationY="150dp" /-->
+
+
+
+    <!--Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonback"
+        android:text="HAVE TIME"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:translationX="40dp"
+        android:translationY="400dp" /-->
+
+    <android.widget.Button
+        android:id="@+id/have_time"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonback"
+        android:padding="20dp"
+        android:text="HAVE TIME"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:translationX="40dp"
+        android:translationY="330dp" />
+
+
+    <android.widget.Button
+        android:id="@+id/monthly_plan"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonback"
+        android:text="monthly plan"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:translationX="40dp"
+        android:translationY="430dp" />
+
+    <android.widget.Button
+        android:id="@+id/elderly_exercise"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonback"
+        android:padding="20dp"
+        android:text="Elderly Exercises"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:translationX="40dp"
+        android:translationY="530dp" />
+
+    <android.widget.Button
+        android:id="@+id/physical_instructor"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonback"
+        android:padding="20dp"
+        android:text="instructor schedule"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:translationX="40dp"
+        android:translationY="630dp" />
+
+
+
+
+
+</RelativeLayout>

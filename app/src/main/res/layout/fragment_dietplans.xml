@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dietplans">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="DIET PLANS"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:background="@color/teal_200"
+        android:textAlignment="center"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView14"
+        android:layout_width="400dp"
+        android:layout_height="180dp"
+        android:translationX="0dp"
+        android:translationY="50dp"
+        android:padding="10dp"
+        android:src="@drawable/eat_well_feel_good" />
+
+    <android.widget.Button
+        android:id="@+id/musgain"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/optionbuton"
+        android:text="MUSCLE GAIN"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationX="50dp"
+        android:translationY="250dp" />
+
+    <android.widget.Button
+        android:id="@+id/wtgain"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/optionbuton"
+        android:text="WEIGHT GAIN"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationX="50dp"
+        android:translationY="320dp" />
+
+    <android.widget.Button
+        android:id="@+id/wtloss"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/optionbuton"
+        android:text="WEIGHT LOSS"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationX="50dp"
+        android:translationY="390dp" />
+
+    <android.widget.Button
+        android:id="@+id/inscntrldiet"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/optionbuton"
+        android:text="Diabetes meal plan"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationX="50dp"
+        android:translationY="460dp" />
+
+    <!--android.widget.Button
+        android:id="@+id/bpctrl"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/optionbuton"
+        android:text="BLOOD PRESSURE CONTROL"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationX="50dp"
+        android:translationY="480dp" /-->
+
+    <!--android.widget.Button
+        android:id="@+id/option6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/optionbuton"
+        android:text="DIET PLAN"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationX="210dp"
+        android:translationY="440dp" /-->
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView12"
+        android:layout_width="320dp"
+        android:layout_height="170dp"
+        android:translationX="50dp"
+        android:translationY="530dp"
+        android:src="@drawable/giphy" />
+
+    <!--pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView13"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:translationX="240dp"
+        android:translationY="580dp"
+        android:src="@drawable/avocadoworkout" /-->
+
+
+</FrameLayout>
